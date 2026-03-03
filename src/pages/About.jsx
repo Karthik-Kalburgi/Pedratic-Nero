@@ -26,7 +26,7 @@ const values = [
 
 export default function About() {
   return (
-    <section className="w-full bg-[#f4f9fc] py-16 sm:py-20 md:py-24 px-6">
+    <section className="w-full bg-white py-16 sm:py-20 md:py-24 px-6">
       <div className="max-w-7xl mx-auto text-center">
 
         {/* Badge */}
@@ -37,7 +37,7 @@ export default function About() {
         </span>
 
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-800">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-900">
           Meet the Team Behind Little Minds 🧠💖
         </h2>
 
@@ -56,7 +56,7 @@ export default function About() {
         </p>
 
         {/* Core Values Title */}
-        <h3 className="mt-16 text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
+        <h3 className="mt-16 text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
           Our Core Values 🌈
         </h3>
 
@@ -74,7 +74,7 @@ export default function About() {
                   <Icon className="text-blue-500 w-7 h-7" />
                 </div>
 
-                <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
                   {item.title}
                 </h4>
 
@@ -85,6 +85,7 @@ export default function About() {
             );
           })}
         </div>
+
       </div>
     </section>
   );
