@@ -24,7 +24,7 @@ export default function Home() {
   =============================== */
   useEffect(() => {
     const duration = 2000;
-    const intervalTime = 16; // smoother animation (60fps)
+    const intervalTime = 22; // smoother animation (60fps)
     const steps = duration / intervalTime;
 
     const intervals = stats.map((stat, index) => {
@@ -95,7 +95,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-4">
 
               <Link
-                to="/book"
+                to="/contact"
                 className="px-7 sm:px-8 lg:px-10 py-3 sm:py-4 lg:py-5 
                            text-sm sm:text-base lg:text-lg 
                            rounded-full text-white font-semibold

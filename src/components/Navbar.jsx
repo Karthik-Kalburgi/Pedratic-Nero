@@ -49,7 +49,7 @@ export default function Navbar() {
     {/* RIGHT: BOOK BUTTON */}
     <div className="hidden md:flex">
       <NavLink
-        to="/book"
+        to="/contact"
         className="px-6 py-2.5 rounded-full text-white font-semibold
                    bg-gradient-to-r from-primary to-[#5bb6da]
                    shadow-lg hover:shadow-xl hover:scale-105

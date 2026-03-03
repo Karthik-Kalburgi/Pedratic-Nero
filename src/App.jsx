@@ -7,11 +7,13 @@ import Reviews from "./pages/Reviews";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Footer from "./pages/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
