@@ -8,12 +8,12 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Footer from "./pages/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import BackToTopButton from "./components/BackToTopButton";
 
 export default function App() {
   return (
-    <>
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,8 +23,8 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>
-        <Footer />
+      <Footer />
+      <BackToTopButton />
     </BrowserRouter>
-    </>
   );
 }
